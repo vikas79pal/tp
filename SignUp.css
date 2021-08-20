@@ -1,0 +1,20 @@
+.s_col{
+    display: flex;
+    flex-direction: column;
+}
+.dash{
+    
+    font-weight: bolder;
+    color: rgb(92, 88, 88);
+    font-size: larger;
+    border: 1px solid rgb(218, 210, 210);
+}
+.photo1{
+    display: block;
+}
+
+@media (max-width: 767px) {
+    .photo{
+        display: none;
+    }
+}
